@@ -13,7 +13,7 @@ and return that number, and the band name concatenated together.
 let bandNumber = 1;
 
 const takeNumber = function (bandName) {
-    console.log(`${bandNumber}. ${bandName}`)
+    return `${bandNumber}. ${bandName}`;
     bandNumber++;
 }
 
